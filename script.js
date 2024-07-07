@@ -253,7 +253,7 @@ function elem1ANimationResponsive(){
   
     function mouseEnterHandler() {
       gsap.to("#elem1 .dets", {
-        height: "45vh",
+        height: "40vh",
         duration: 0.5,
         scrub: true,
         transformOrigin: "bottom",
