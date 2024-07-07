@@ -548,7 +548,7 @@ body {
   /* elem2 container */
 
   #elem2 .dets {
-    height: 7.5vh;
+    height: 5.5vh;
     width: 60%;
     z-index: 9;
     top: 0;
@@ -579,10 +579,28 @@ body {
     padding: 0vh 2vw;
   }
 
+
+  #elem2 .dets_Container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    
+  }
+  #elem2 .dets_Container img {
+    position: relative;
+    height: 150px;
+    width: 180px;
+    opacity: 0;
+    padding: 0.5vh;
+  }
+
+
   /* elem3 Contaiener */
 
   #elem3 .dets {
-    height: 7.5vh;
+    height: 5.5vh;
     width: 60%;
     z-index: 9;
     top: 0;
@@ -612,6 +630,23 @@ body {
     font-family: Helvetica;
     padding: 0vh 2vw;
   }
+
+  #elem3 .dets_Container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    
+  }
+  #elem3 .dets_Container img {
+    position: relative;
+    height: 150px;
+    width: 180px;
+    opacity: 0;
+    padding: 0.5vh;
+  }
+
 
   .child {
     height: 48vh;
