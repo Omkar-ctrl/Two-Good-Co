@@ -538,8 +538,8 @@ body {
   }
   #elem1 .dets_Container img {
     position: relative;
-    height: 130px;
-    width: 150px;
+    height: 150px;
+    width: 180px;
     opacity: 0;
     padding: 0.5vh;
   }
