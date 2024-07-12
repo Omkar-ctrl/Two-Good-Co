@@ -295,7 +295,6 @@ function elem1ANimationResponsive() {
 
 elem1ANimationResponsive();
 
-
 function elem2Animation() {
   var dets = document.querySelector(" #elem2 .dets");
 
@@ -383,8 +382,6 @@ function elem2ANimationResponsive() {
 }
 
 elem2ANimationResponsive();
-
-
 
 function elem3Animation() {
   var dets = document.querySelector(" #elem3 .dets");
@@ -487,191 +484,23 @@ function Page5Animation() {
     },
   });
 
+  tl.to("#card-one", {
+    top: "45%",
+  });
 
-  tl.to("#card-one",{
-       top: "45%"
-    
-    })
-    
-  tl.to("#card-two",{
-        top: "45%"
-      
-      })
-  tl.to("#card-three",{
-        top: "45%"
-      
-      })    
+  tl.to("#card-two", {
+    top: "45%",
+  });
+  tl.to("#card-three", {
+    top: "45%",
+  });
 
-      tl.to("#card-four",{
-        top: "45%"
-      
-      }) 
-      tl.to("#card-five",{
-        top: "45%"
-      
-      }) 
-      
-     
-
-
-// function Page5Animation() {
-//   var tl = gsap.timeline({
-//     scrollTrigger: {
-//       trigger: "#page5",
-//       pin: true,
-//       markers: true,
-//       scroller: `#main`,
-//       start: `20% 10%`,
-//       end: `700% 50%`,
-//       scrub: 2,
-//     },
-//   });
-
-//   tl.to(
-//     "#card-one",
-//     {
-//       top: "35%",
-//       height: "80vh",
-
-//     },"a")
-//     .to(
-//       "#card-one",
-//       {
-//         top: "45%",
-//         height: "70vh",
-//       },"a")
-//     .to(
-//       "#card-one",
-//       {
-//         top: "50%",
-//         width: "65%",
-//         height: "80vh",
-//       },"a")
-//     .to(
-//       "#card-two",
-//       {
-//         top: "35%",
-//         height: "80vh",
-
-//       },"b")
-//     .to(
-//       "#card-two",
-//       {
-//         top: "40%",
-//         height: "70vh",
-
-//       },"b")
-//     .to(
-//       "#card-two",
-//       {
-//         top: "50%",
-//         width: "65%",
-//         height: "80vh",
-//       },"b")
-//     .to(
-//       "#card-three",
-//       {
-//         top: "35%",
-//         height: "80vh",
-
-//       },"c")
-//     .to(
-//       "#card-three",
-//       {
-//         top: "40%",
-//         height: "70vh",
-
-//       },"c")
-//     .to(
-//       "#card-three",
-//       {
-//         top: "50%",
-//         width: "65%",
-//         height: "80vh",
-//       },"c" )
-//       .to(
-//         "#card-four",
-//         {
-//           left: "35%",
-//           height: "80vh",
-//           top:"50%",
-//           transform:"traslateY(-50%)"
-    
-//         },"d")
-//         .to(
-//           "#card-four",
-//           {
-//             left: "45%",
-//             height: "70vh",
-//             top:"50%",
-//             transform:"traslateY(-50%)"
-
-//           },"d")
-//         .to(
-//           "#card-four",
-//           {
-//             left: "50%",
-//             width: "65%",
-//             height: "80vh",
-//             top:"50%",
-//             transform:"traslateY(-50%)"
-
-//           },"d")
-//           .to(
-//             "#card-five",
-//             {
-//               left: "35%",
-//           height: "80vh",
-//           top:"50%",
-//           transform:"traslateY(-50%)"
-      
-//             },"e")
-//           .to(
-//             "#card-five",
-//             {
-//               left: "45%",
-//             height: "70vh",
-//             top:"50%",
-//             transform:"traslateY(-50%)"
-      
-//             },"e")
-//           .to(
-//             "#card-five",
-//             {
-//               left: "50%",
-//               width: "65%",
-//               height: "80vh",
-//               top:"50%",
-//               transform:"traslate(-50%,-50%)"
-//             },"e")
-//             .to(
-//               "#card-six",
-//               {
-//                 left: "145%",
-//                 height: "80vh",
-//                 top:"50%",
-//                 transform:"traslateY(-50%)"
-          
-//               },"f")
-//               .to(
-//                 "#card-six",
-//                 {
-//                   left: "75%",
-//                   height: "70vh",
-//                   top:"50%",
-//                   transform:"traslateY(-50%)"
-      
-//                 },"f")
-//               .to(
-//                 "#card-six",
-//                 {
-//                   left: "50%",
-//                   width: "65%",
-//                   height: "80vh",
-//                   top:"50%",
-//                   transform:"traslateY(-50%)"
-      
-//                 },"f")
+  tl.to("#card-four", {
+    top: "45%",
+  });
+  tl.to("#card-five", {
+    top: "45%",
+  });
 }
 
 Page5Animation();
