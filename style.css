@@ -412,7 +412,7 @@ body {
   justify-content: center;
   width: 100%;
   height: 150vh;
-  background-color: #202020;
+  background-color: #F7F7F7;
 }
 
 .cards {
@@ -445,6 +445,7 @@ body {
   background-image: url(Assets/image3.jpg);
   object-fit: cover;
   background-size: 100%;
+  background-position: center;
 }
 
 #card-four {
@@ -463,11 +464,103 @@ body {
 }
 
 #page6 {
+  position: relative;
   height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  background-color: #F7F7F7;
+}
+
+#left {
+  position: relative;
+  height: 100%;
+  width: 28.3%;
+  color: black;
+  padding: 3vh 2vw;
+}
+
+#left h2{
+  font-size: 3.2vw;
+  margin-top: 13vh;
+  font-weight:800;
+
+}
+
+#left p{
+  font-family: Helvetica;
+  font-size: 1.2vw;
+}
+
+#left span {
+  position: relative;
+  padding: 1vh;
+  border-bottom: 1px solid #5c5c5d;
+  overflow: hidden;
+}
+
+#left span::before {
+  content: '';
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #19191b;
+  transition: width 0.3s ease-in-out;
+}
+
+#left span:hover::before {
   width: 100%;
 }
 
+
+
+#imgContainer{
+  position: relative;
+  height: 100%;
+  width: 72.3%;
+  display: flex;
+
+}
+
+
+
+#img_div{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#center {
+  position: relative;
+  height: 100%;
+  width: 35.3%;
+  padding: 0.5vw;
+
+}
+#right {
+  position: relative;
+  height: 100%;
+  width: 35.3%;
+  padding: 0.5vw;
+
+
+}
+
+#img_div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
 @media (max-width: 600px) {
+  #cursor {
+    display: none;
+  }
   #nav {
     /* height: 100px; */
     width: 100%;
@@ -734,7 +827,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 150vh;
+    height: 130vh;
     background-color: #202020;
   }
 
@@ -786,4 +879,67 @@ body {
     background-size: 100%;
     background-position: center;
   }
+
+  #page6 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+  }
+  
+  #left {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 2vh 10vw;
+  }
+  
+  #left h2{
+    font-size: 7.2vw;
+    margin-top: 1vh;
+    font-weight:800;
+    text-align: center;
+  
+  }
+  
+  #left p{
+    font-family: Gilroy;
+    font-size: 4.2vw;
+    font-weight: 500;
+    line-height: 2.5vh;
+  }
+  
+  #left span {
+    position: relative;
+    padding: 1vh;
+    border-bottom: 1px solid #5c5c5d;
+    overflow: hidden;
+    display: none;
+    
+    
+  }
+
+  #imgContainer{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+  
+  }
+  
+  
+  
+  #img_div{
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+
 }

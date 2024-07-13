@@ -471,36 +471,103 @@ function elem3ANimationResponsive() {
 
 elem3ANimationResponsive();
 
+// function Page5Animation() {
+//   var tl = gsap.timeline({
+//     scrollTrigger: {
+//       trigger: "#page5",
+//       pin: true,
+//       markers: true,
+//       scroller: `#main`,
+//       start: `20% 10%`,
+//       end: `500% 50%`,
+//       scrub: 2,
+//     },
+//   });
+
+//   tl.to("#card-one", {
+//     top: "45%",
+//   });
+
+//   tl.to("#card-two", {
+//     top: "45%",
+//   });
+//   tl.to("#card-three", {
+//     top: "45%",
+//   });
+
+//   tl.to("#card-four", {
+//     top: "45%",
+//   });
+//   tl.to("#card-five", {
+//     top: "45%",
+//   });
+// }
+
+// Page5Animation();
+
 function Page5Animation() {
-  var tl = gsap.timeline({
-    scrollTrigger: {
-      trigger: "#page5",
-      pin: true,
-      markers: true,
-      scroller: `#main`,
-      start: `20% 10%`,
-      end: `500% 50%`,
-      scrub: 2,
-    },
-  });
+  // Check if the screen width is less than or equal to 600px
+  if (window.matchMedia("(max-width: 600px)").matches) {
+    // Custom animation for screens with max width of 600px
+    var tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#page5",
+        pin: true,
+        scroller: `#main`,
+        start: `20% 10%`,
+        end: `250% 50%`,
+        scrub: true
+      },
+    });
 
-  tl.to("#card-one", {
-    top: "45%",
-  });
+    tl.to("#card-one", {
+      top: "50%",
+    });
 
-  tl.to("#card-two", {
-    top: "45%",
-  });
-  tl.to("#card-three", {
-    top: "45%",
-  });
+    tl.to("#card-two", {
+      top: "50%",
+    });
+    tl.to("#card-three", {
+      top: "50%",
+    });
 
-  tl.to("#card-four", {
-    top: "45%",
-  });
-  tl.to("#card-five", {
-    top: "45%",
-  });
+    tl.to("#card-four", {
+      top: "50%",
+    });
+    tl.to("#card-five", {
+      top: "50%",
+    });
+  } else {
+    // Default animation for screens wider than 600px
+    var tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#page5",
+        pin: true,
+        scroller: `#main`,
+        start: `20% 10%`,
+        end: `500% 50%`,
+        scrub: 2,
+      },
+    });
+
+    tl.to("#card-one", {
+      top: "45%",
+    });
+
+    tl.to("#card-two", {
+      top: "45%",
+    });
+    tl.to("#card-three", {
+      top: "45%",
+    });
+
+    tl.to("#card-four", {
+      top: "45%",
+    });
+    tl.to("#card-five", {
+      top: "45%",
+    });
+  }
 }
 
 Page5Animation();
