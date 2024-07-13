@@ -516,7 +516,7 @@ function Page5Animation() {
         scroller: `#main`,
         start: `20% 10%`,
         end: `250% 50%`,
-        scrub: true
+        scrub: 4
       },
     });
 
