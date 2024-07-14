@@ -521,21 +521,21 @@ function Page5Animation() {
     });
 
     tl.from("#card-one", {
-      top: "150%",
+      y: "120%",
     });
 
     tl.from("#card-two", {
-      top: "150%",
+      y: "120%",
     });
     tl.from("#card-three", {
-      top: "150%",
+      y: "120%",
     });
 
     tl.from("#card-four", {
-      top: "150%",
+      y: "120%",
     });
     tl.from("#card-five", {
-      top: "150%",
+      y: "120%",
     });
   } else {
     // Default animation for screens wider than 600px
