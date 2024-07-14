@@ -515,8 +515,8 @@ function Page5Animation() {
         pin: true,
         scroller: `#main`,
         start: `20% 10%`,
-        end: `400% 50%`,
-        scrub: 2
+        end: `300% 50%`,
+        scrub: true
       },
     });
 

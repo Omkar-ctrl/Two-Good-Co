@@ -844,7 +844,7 @@ body {
   }
 
   #card-one {
-    top: 150%;  
+    top: 250%;  
       background-image: url("Assets/image1.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
@@ -854,7 +854,7 @@ body {
   }
 
   #card-two {
-    top: 150%;   
+    top: 250%;   
      background-image: url("Assets/image2.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
@@ -864,7 +864,7 @@ body {
   }
 
   #card-three {
-    top: 150%;      
+    top: 250%;      
     background-image: url("Assets/image3.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
@@ -874,7 +874,7 @@ body {
   }
 
   #card-four {
-    top: 150%;  
+    top: 250%;  
     background-image: url("Assets/image4.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
