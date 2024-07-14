@@ -830,6 +830,7 @@ body {
     height: 100vh;
     background-color: hsl(0, 0%, 13%);
     position: relative;
+    overflow: hidden;
   }
 
   .cards {
@@ -843,49 +844,57 @@ body {
   }
 
   #card-one {
-    top: 50%;    background-image: url("Assets/image1.jpg");
+    top: 150%;  
+      background-image: url("Assets/image1.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: 100%;
     background-position: center;
+    scale: (0.3);
   }
 
   #card-two {
-    top: 50%;    background-image: url("Assets/image2.jpg");
+    top: 150%;   
+     background-image: url("Assets/image2.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: 100%;
     background-position: center;
+    scale: (0.3);
   }
 
   #card-three {
-    top: 50%;    background-image: url("Assets/image3.jpg");
+    top: 150%;      
+    background-image: url("Assets/image3.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
     background-position: center;
+    scale: (0.3);
   }
 
   #card-four {
-    top: 50%;
+    top: 150%;  
     background-image: url("Assets/image4.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
     background-position: center;
+    scale: (0.3);
   }
 
   #card-five {
-    top: 50%;
+    top: 150%;
     background-image: url("Assets/image5.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
     background-size:cover;
     background-position: center;
+    scale: (0.3);
   }
 
   #page6 {
-    
+    overflow: hidden;
     position: relative;
     height: 100vh;
     width: 100%;

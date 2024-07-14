@@ -515,27 +515,37 @@ function Page5Animation() {
         pin: true,
         scroller: `#main`,
         start: `20% 10%`,
-        // end: `200% 50%`,
-        // scrub: 2
+        end: `200% 50%`,
+        scrub: 2
       },
     });
 
-    tl.from("#card-one", {
-      y: "120%",
+    tl.to("#card-one", {
+      top: "50% ",
+      left: "50%",
+      transform: "translate(-50%, -50%)"
     });
 
-    tl.from("#card-two", {
-      y: "120%",
+    tl.to("#card-two", {
+      top: "50% ",
+      left: "50%",
+      transform: "translate(-50%, -50%)"
     });
-    tl.from("#card-three", {
-      y: "120%",
+    tl.to("#card-three", {
+      top: "50% ",
+      left: "50%",
+      transform: "translate(-50%, -50%)"
     });
 
-    tl.from("#card-four", {
-      y: "120%",
+    tl.to("#card-four", {
+      top: "50% ",
+      left: "50%",
+      transform: "translate(-50%, -50%)"
     });
-    tl.from("#card-five", {
-      y: "120%",
+    tl.to("#card-five", {
+      top: "50% ",
+      left: "50%",
+      transform: "translate(-50%, -50%)"
     });
   } else {
     // Default animation for screens wider than 600px
