@@ -511,11 +511,17 @@ function Page5Animation() {
     // Custom animation for screens with max width of 600px
     var tl = gsap.timeline({
       scrollTrigger: {
+        // trigger: "#page5",
+        // scroller: `#main`,
+        // start: `20% 10%`,
+        // end: `300% 50%`,
+        // pin: true,
+        // scrub: true
+
         trigger: "#page5",
+        start: "top 20%", // Adjust start position
+        end: "bottom 50%", // Adjust end position
         pin: true,
-        scroller: `#main`,
-        start: `20% 10%`,
-        end: `300% 50%`,
         scrub: true
       },
     });
