@@ -827,7 +827,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     background-color: #202020;
   }
 
@@ -841,8 +841,7 @@ body {
   }
 
   #card-one {
-    top: 80%;
-    background-image: url("Assets/image1.jpg");
+    top: 50%;    background-image: url("Assets/image1.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: 100%;
@@ -850,8 +849,7 @@ body {
   }
 
   #card-two {
-    top: 80%;
-    background-image: url("Assets/image2.jpg");
+    top: 50%;    background-image: url("Assets/image2.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: 100%;
@@ -859,16 +857,16 @@ body {
   }
 
   #card-three {
-    top: 80%;
-    background-image: url("Assets/image3.jpg");
+    top: 50%;    background-image: url("Assets/image3.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
   }
 
   #card-four {
-    top: 80%;
-    background-image: url("Assets/image4.jpg)");
+    top: 50%;
+    background-image: url("Assets/image4.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
     background-size: cover;
@@ -876,11 +874,11 @@ body {
   }
 
   #card-five {
-    top: 80%;
+    top: 50%;
     background-image: url("Assets/image5.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
-    background-size: 100%;
+    background-size:cover;
     background-position: center;
   }
 
